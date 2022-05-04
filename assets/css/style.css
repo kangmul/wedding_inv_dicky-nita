@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "merriweather", serif;
 
@@ -5,6 +10,14 @@ body {
 
   left: 0;
   top: 0;
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
 }
 
 .judul{
@@ -55,9 +68,6 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-
-  height: auto;
-  width: auto;
 }
 
 #img-cover{
@@ -67,6 +77,10 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .textcover{
