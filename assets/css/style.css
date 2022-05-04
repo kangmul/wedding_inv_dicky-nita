@@ -15,9 +15,13 @@ body {
 }
 
 
-body{
-  margin: 0;
-  padding: 0;
+/* Utility */
+.font-petemoss {
+  font-family: "petemoss";
+}
+
+.font-corinthia {
+  font-family: "corinthia";
 }
 
 .judul{
@@ -49,7 +53,7 @@ body{
 
 .pernikahan {
   /* position: relative; */
-  margin-top: 35%;
+  margin-top: 400px;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
 }
 
@@ -67,7 +71,7 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  height: 100vh;
 }
 
 #img-cover{
@@ -88,4 +92,12 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+/* section content 1 */
+.bg-putih {
+  margin-top: 550px;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
