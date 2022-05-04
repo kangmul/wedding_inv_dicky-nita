@@ -1,3 +1,9 @@
+AOS.init({
+  duration: 1000,
+  delay: 150,
+  once: true,
+});
+
 // klik buka undangan 
 let btnBukaUndangan = document.getElementById('bukaundangan');
 
