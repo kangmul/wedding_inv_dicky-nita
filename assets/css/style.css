@@ -96,8 +96,49 @@ p {
 
 /* section content 1 */
 .bg-putih {
-  margin-top: 550px;
-  padding: 0;
-  margin-left: 0;
-  margin-right: 0;
+    margin-top: 10px;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    position: absolute;
+  }
+
+@media (max-width: 576px) {
+  .bg-putih {
+    margin-top: 500px;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    position: absolute;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .bg-putih {
+    margin-top: 450px;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    position: absolute;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .bg-putih {
+    margin-top: 500px;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    position: absolute;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1180px) {
+  .bg-putih {
+    margin-top: 500px;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    position: absolute;
+  }
 }
