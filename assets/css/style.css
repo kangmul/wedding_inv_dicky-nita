@@ -1,0 +1,77 @@
+body {
+  font-family: "merriweather", serif;
+
+  font-size: 18px;
+
+  left: 0;
+  top: 0;
+}
+
+.judul{
+  font-size: 80px !important;
+}
+
+.namayangnikah{
+  font-family: "petemoss";
+}
+
+.btn-white {
+  background-color: white;
+  border: 2px solid #ececec;
+  color: #000;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 10px 6px;
+}
+
+.btn-white:hover {
+  color: #fff;
+  background-color: #986955;
+  border-color: #775141;
+}
+
+.btn-white:focus {
+  box-shadow: 0 0 0 0.25rem rgba(221, 221, 221, 0.5);
+}
+
+.pernikahan {
+  /* position: relative; */
+  margin-top: 35%;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+.pernikahan h1 {
+  font-size: 80px;
+}
+
+.pernikahan h4,
+p {
+  font-size: 22px;
+}
+
+.bg1{
+  background-image: url(../img/bg-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  height: auto;
+  width: auto;
+}
+
+#img-cover{
+    height: 100vh;
+    background-image: url(../img/cover.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.textcover{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
